@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header>
       <noscript>
-        <style>{`.nojs-show { opacity: 1; top: 0; }`}</style>
+        <style>{`.nojs-show { opacity: 0; top: 10; }`}</style>
       </noscript>
       <div className={styles.signedInStatus}>
         <p
@@ -22,7 +22,7 @@ export default function Header() {
         >
           {!session && (
             <>
-              <span className={styles.notSignedInText}>
+              <span >
                 You are not signed in
               </span>
               <a
