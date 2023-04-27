@@ -5,19 +5,13 @@
   "bugs": {
     "url": "https://github.com/nextauthjs/next-auth/issues"
   },
-  "homepage": "https://next-auth-example.vercel.app",
+  "homepage": "https://gahoffman.com",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "author": "Iain Collins <me@iaincollins.com>",
-  "contributors": [
-    "Balázs Orbán <info@balazsorban.com>",
-    "Nico Domino <yo@ndo.dev>",
-    "Lluis Agusti <hi@llu.lu>"
-  ],
-  "dependencies": {
+   "dependencies": {
     "next": "latest",
     "next-auth": "latest",
     "nodemailer": "^6",
